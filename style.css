@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #bbcdd7;
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-tertiary: #6ba0ce;
+    --color-button: #fe4e2b;
     --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-text: #453939;
+    --color-white: #1961b3;
 }
 
 /* Estilos generales */
@@ -54,7 +54,7 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 75px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
@@ -84,7 +84,7 @@ body {
     padding: 10px;
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .button-container {
@@ -96,7 +96,7 @@ body {
 .input-title {
     flex: 1;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 20px;
     border: 2px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
@@ -108,7 +108,7 @@ body {
 button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     border: 2px solid #000;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -130,13 +130,13 @@ ul {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px 0;
 }
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #408ea4;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
